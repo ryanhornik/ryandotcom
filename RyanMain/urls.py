@@ -4,4 +4,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
+    url(r'^resume/pdf', views.resume_pdf),
+    url(r'^resume/docx', views.resume_docx),
 ]

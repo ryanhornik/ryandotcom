@@ -4,7 +4,7 @@ import RyanMain.urls
 
 urlpatterns = patterns('',
 
-    url(r'^$', include(RyanMain.urls)),
+    url(r'^', include(RyanMain.urls)),
 
-    url(r'^admin/', include(admin.site.urls)),
+    #url(r'^admin/', include(admin.site.urls)),
 )
