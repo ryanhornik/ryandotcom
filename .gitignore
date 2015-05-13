@@ -49,3 +49,5 @@ crashlytics-build.properties
 *.pyc
 /RyanDotCom/settings.py
 db.sqlite3
+static/docx/JohnathanHornikResume.docx
+static/pdf/JohnathanHornikResume.pdf
